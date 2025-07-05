@@ -15,7 +15,6 @@ public class AdvancedAstrology {
             
 
         }
-       
         // part 1 of the exercise
     }
 
@@ -33,7 +32,7 @@ public class AdvancedAstrology {
         int i=1;
         while (i<=height) {
             printSpaces(height-i);
-            printStars(2*i-1);  
+            printStars(2*i-1);
             i++;
         }
         for(int a=0;a<2;a++){
