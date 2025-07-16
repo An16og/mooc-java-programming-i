@@ -16,5 +16,12 @@ public class Book {
     public int getPublicationYear() {
         return publicationYear;
     }
+    public boolean bookSame(Book compared){
+        if(this.name.equals(compared.name)&&this.publicationYear==compared.publicationYear){
+            return true;
+        }
+        return false;
+
+    }
 
 }
