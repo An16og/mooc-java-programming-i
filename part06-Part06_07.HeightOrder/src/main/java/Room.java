@@ -18,10 +18,11 @@ public class Room {
         return list;
     }
     public Person shortest(){
-        Person shor= list.get(0);
-        if(list.size()==0){
+         if(list.size()==0){
             return null;
         }
+        Person shor= list.get(0);
+       
         for(Person peep:list){
             if(peep.getHeight()<shor.getHeight()){
                 shor=peep;
