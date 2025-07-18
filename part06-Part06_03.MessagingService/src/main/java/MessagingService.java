@@ -9,7 +9,7 @@ public class MessagingService {
     public void add(Message message){
         if(message.getContent().length()<=280){
             list.add(message);
-
+ 
         }
 
     }

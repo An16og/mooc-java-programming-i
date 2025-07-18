@@ -8,7 +8,7 @@ public class Message {
 
     public Message(String sender, String content) {
         this.sender = sender;
-        this.content = content;
+        this.content = content; 
     }
 
     public String getSender() {
