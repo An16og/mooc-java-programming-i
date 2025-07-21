@@ -7,7 +7,7 @@ public class MainProgram {
         // write your test code here
         int[] array = {3, 1, 5, 99, 3, 12};
         sort(array);
-
+ 
       
     }
       public static int smallest(int[] array){

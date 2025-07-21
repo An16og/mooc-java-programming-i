@@ -10,7 +10,7 @@ public class UserInterface {
         this.first=first;
         this.second=second;
         this.scan=scan;
-    }
+    } 
     public void start(){
     while (true) {
         System.out.print("First: "+first+"\n" +

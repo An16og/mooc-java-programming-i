@@ -6,7 +6,7 @@ public class Container {
     public Container(){
         this.ammount=0;
         
-    }
+    } 
     
     public int contains(){
         return ammount;

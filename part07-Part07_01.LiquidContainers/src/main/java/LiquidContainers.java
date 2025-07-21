@@ -8,7 +8,7 @@ public class LiquidContainers {
         int container1=0,container2=0;
 
 
-
+ 
         while (true) {
             System.out.print("First:"+container1+"/100\n" + //
                                 "Second:"+container2+"/100\n");

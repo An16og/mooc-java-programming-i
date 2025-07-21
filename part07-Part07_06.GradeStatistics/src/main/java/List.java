@@ -35,3 +35,4 @@ public class List {
         double fin =sum*1.0/list.size();
         return fin;}
 }
+ 
