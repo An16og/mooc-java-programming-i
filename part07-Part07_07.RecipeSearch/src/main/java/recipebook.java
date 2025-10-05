@@ -29,7 +29,28 @@ public class recipebook {
     }
     public void list(){
         for(recipe food:book()){
-            System.out.println(food.getname()+", cooking time: "+food.gettime());
+        System.out.println(food);
+        }
+    }
+    public void find(String s){
+        for(recipe food:book()){
+            if(food.getname().contains(s)){
+                System.out.println(food);
+            }
+        }
+    }
+    public void findti(int i){
+        for(recipe food:book()){
+            if(Integer.valueOf(food.gettime())<=i){
+                System.out.println(food);
+            }
+        }
+    }
+    public void findin(String i){
+        for(recipe food:book()){
+            if(food.geting().contains(i)){
+                System.out.println(food);
+            }
         }
     }
 }

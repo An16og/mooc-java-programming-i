@@ -19,4 +19,9 @@ public class recipe {
     public ArrayList<String> geting(){
         return ingredient;
     }
+    @Override
+    public String toString(){
+        String output= getname()+", cooking time: "+gettime();
+        return output;
+    }
 }
