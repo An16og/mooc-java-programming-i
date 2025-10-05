@@ -30,7 +30,7 @@ public class List {
             }
         }
         if(sum==0){
-            return -;
+            return ;
         }
         double fin =sum*1.0/list.size();
         return fin;}
